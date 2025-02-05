@@ -5,7 +5,7 @@ on:
 
 jobs:
     send_email:
-        runs-on: ununtu-latest
+        runs-on: ubuntu-latest
         steps:
             - name: "Checkout code"
               uses: actions/checkout@v2
